@@ -1,0 +1,640 @@
+.container-fluid {
+  padding: 10px 40px;
+  background-color: #d63447;
+  height: 600px;
+  color: white;
+}
+
+.info {
+  margin-top: 200px;
+  padding: 10px 60px;
+}
+
+.info h1 {
+  font-size: 4rem;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+.info p {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.info h5 {
+  font-weight: lighter;
+  margin: 40px 0 0 0;
+}
+
+.info button {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px 20px;
+  border-style: none;
+  margin: 25px 20px 0 0;
+  color: #d63447;
+    transition: 0.3s ease-in;
+}
+
+.chat {
+  background-color: white;
+}
+
+.book {
+  background-color: white;
+}
+
+.info button:hover {
+  background-color: #d63447;
+  border: 2px solid white;
+  color: white;
+  transition: 0.3s ease-in;
+}
+
+.about {
+  padding: 5% 10% 10% 9%;
+  text-align: center;
+}
+
+
+.about p {
+  font-size: 1.0rem;
+}
+
+.about p {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.about p:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #d63774;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.about p:hover:after {
+  width: 100%;
+  left: 0;
+}
+.fas {
+  font-size: 4.5rem;
+  color: #d63447;
+  margin-bottom: 20px;
+  display:block;
+}
+.fas:hover{
+color: #ff4c68;
+}
+.about hr {
+  display: block;
+  margin-top: 2.5em;
+  margin-bottom: -10em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  background-color: black;
+  width: 100%;
+}
+
+.steps3 {
+  padding: 0% 15% 0% 15%;
+}
+
+.steps3 h1{
+  padding: 0px;
+  text-align: center;
+font-weight: lighter;
+}
+.help{
+  text-align: center;
+}
+.steps3 img {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  width: 236px;
+  height: 210px;
+}
+
+.help-descp h2 {
+  font-size: 6rem;
+  color: #d63447;
+  display: inline-block;
+  position: relative;
+  left: -40px;
+}
+
+.help-descp h5 {
+  display: inline-block;
+  font-size: 1.4rem;
+  position: relative;
+  top: -30px;
+  left: -30px;
+  font-weight: 400;
+}
+
+.help-descp p {
+  margin-bottom: 0px;
+}
+
+.divs3 {
+  padding: 6% 4% 5% 4%;
+  text-align: center;
+}
+
+.descp-box {
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  border-style: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 18px #888888;
+  margin:0 10px;
+}
+
+.icon {
+position: relative;
+top: 40%;
+margin: 0 0 0 25px;
+}
+
+.descp-box-descp {
+  padding: 30px 10px 2px 30px;
+}
+
+.descp-box:hover {
+  cursor: pointer;
+  background-color: #ececec;
+}
+
+.experts {
+  padding: 40px 150px;
+  width: 100%;
+  background-color: #ececec;
+  text-align: center;
+}
+
+.experts h1 {
+  font-size: 2.7rem;
+  font-weight: lighter;
+}
+
+.experts p {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.experts button {
+  width: 200px;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+  padding: 5px 20px;
+  height: 50px;
+  background-color: #d63447;
+  color: white;
+  display: block;
+  position: relative;
+  left:44%;
+  text-align: center;
+  transition: 0.3s ease-in;
+}
+
+.experts button:hover {
+  background-color: #ececec;
+  border: 2px solid #d63447;
+  color: #d36447;
+  transition: 0.3s ease-in;
+}
+
+.experts-card {
+  display: inline-block;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 5px 5px 18px #888888;
+  padding: 20px 10px;
+  margin: 90px 15px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: white;
+}
+
+.experts-card img {
+  border: 4px solid grey;
+  border-radius: 100%;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.experts-card p {
+  font-size: 1rem;
+  font-weight: 350;
+}
+
+.programs {
+  width: 100%;
+  padding: 60px 7%;
+}
+
+.programs button {
+  width: 300px;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+  padding: 5px 20px;
+  height: 50px;
+  background-color: #d63447;
+  color: white;
+  display: block;
+  position: relative;
+  left: 45%;
+  margin-top: 50px;
+  transition: 0.3s ease-in;
+}
+
+.programs button:hover {
+  background-color: white;
+  border: 2px solid #d63447;
+  color: #d36447;
+  transition: 0.3s ease-in;
+}
+
+.programs h1 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+.programs h4{
+  text-align: center;
+}
+
+.programs p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+.container {
+  box-shadow: 5px 5px 18px #888888;
+  border-style: none;
+  position: relative;
+  width: 30%;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  display: block;
+  width: 90%;
+  text-align: center;
+
+
+  padding: 10px 0px 40px;
+}
+
+.img-container img{
+  position: relative;
+  left:7%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  background-color: #d63447;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.big-container {
+  padding: 2% 0%;
+}
+
+.blog {
+  background-color: #ececec;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.blog h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.more-blog-btn{
+  width: 300px;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+  padding: 5px 20px;
+  height: 50px;
+  background-color: #d63447;
+  color: white;
+  display: block;
+  position: relative;
+  left: 40%;
+  margin-top: 50px;
+    transition: 0.3s ease-in;
+}
+
+.more-blog-btn:hover {
+  background-color: #ececec;
+  color:#d63447;
+  border: 2px solid #d63447;
+  transition: 0.3s ease-in;
+}
+
+.indv-blog {
+  width: 40%;
+  height: 450px;
+  padding: 10px;
+  margin: 40px 50px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.indv-blog img {
+  width: 90%;
+  height: 300px;
+}
+
+.indv-blog-descp h6 {
+  color: #d63447;
+}
+
+.indv-blog-descp button {
+  width: 60px;
+  background-color: #d63447;
+  color: white;
+  font-size: 0.9rem;
+  border-style: none;
+}
+
+#testimonials {
+  background-color: #d63447;
+  text-align: center;
+}
+
+#testimonials p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#testimonials h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}
+
+.test-btn {
+  width: 180px;
+  height: 50px;
+  border-style: none;
+  background-color: white;
+  color: #d63447;
+  border-radius: 5px;
+  margin: 0px 15px 50px;
+  transition: 0.3s ease-in;
+}
+
+.test-btn:hover {
+  background-color: #d63447;
+  color: white;
+  border: 2px solid white;
+  transition: 0.3s ease-in;
+}
+
+.testimg {
+  width: 100px;
+  border-radius: 100%;
+  border-style: none;
+}
+
+.carousel-item {
+  color: white;
+  height: 500px;
+  padding: 7% 15%;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.press {
+  width: 100%;
+  height: 400px;
+  margin-top: 70px;
+  padding: 2% 10%;
+  text-align: center;
+}
+
+.press img {
+  filter: grayscale(100%);
+  cursor: pointer;
+  margin: 70px 15px 0px;
+}
+
+.press img:hover {
+  filter: grayscale(0%);
+}
+
+.press h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+}
+.footer{
+  background-color: #d63447;
+  width: 100%;
+  padding: 4% 7%;
+  height: 700px;
+  color: white;
+}
+.footer h5{
+  margin-bottom: 40px;
+}
+
+.footer p:hover{
+  text-decoration: underline;
+  transition: 0.5s ease-in;
+}
+.fa{
+  font-size: 3rem;
+  margin: 35px 20px;
+  cursor: pointer;
+}
+
+.help-btn{
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  border: 2px solid #d63447;
+  background-color: white;
+  color: #d63447;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+
+.login{
+  border: 2px solid red;
+  padding: 0px 15px;
+  width: 130px;
+  border-radius: 50px;
+  background-color: Transparent;
+  height: 40px;
+  position: relative;
+  right: 10px;
+}
+.login:hover{
+  background-color: red;
+  color: white;
+}
+.bg{
+  background-color: orange;
+  color: white;
+}
+.bg.scrolled{
+  background-color: white;
+  color: black;
+}
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.nav-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover:after {
+  width: 100%;
+  left: 0;
+}
+.bg{
+color:white;
+  background-color: #d63447;
+}
+
+.navbar-brand{
+  padding: 0 50px 10px 50px;
+  font-size: 2.7rem;
+color: white !important;
+  font-weight: lighter;
+}
+.nav-link{
+color: white !important;
+  font-size: 1.1rem;
+  padding: 0 0 10px 30px;
+  font-weight: lighter;
+  transition: 2s ease-in;
+}
+.nav-link.scrolled{
+    color: #d63447;
+}
+.navbar{
+  padding: 0;
+}
+.nav-item{
+  margin:0 35px 0 5px;
+}
+@media (max-width:700px) {
+  .press{
+    height:800px;
+  }
+  .footer{
+    height: 1700px;
+  }
+  .test-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #testimonials{
+    padding-top: 20px;
+  }
+.indv-blog{
+  width: 90%;
+}
+.container{
+  width: 90%;
+}
+.overlay{
+  width: 100%;
+}
+.experts button{
+  left: 30%
+}
+.experts-card{
+  margin: 40px 0;
+}
+.descp-box{
+  width: 90%;
+  height: 300px;
+  margin: 40px 0;
+}
+.container-fluid{
+  height: 800px;
+  padding: 2% 4%;
+}
+}
